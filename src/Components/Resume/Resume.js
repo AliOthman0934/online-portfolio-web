@@ -1,7 +1,9 @@
 import React, { useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import arrow from '../../Assets/arrow.svg'
 import "bootstrap-icons/font/bootstrap-icons.css";
+import CV from "../Cv/AliOthmanResume .pdf"
 import "./Resume.css";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -147,7 +149,8 @@ const Resume = () => {
                 </section>
             </div>
             <div className="download-cv">
-                <a href="https://app.enhancv.com/share/98211fc4/?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic" >Download CV</a>
+                <a href={CV} download="Resume Ali Othman" >Download CV</a>
+                <img src={arrow} alt="" className="arrow-cv" />
             </div>
         </div>
 

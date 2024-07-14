@@ -129,13 +129,24 @@ justify-content: flex-start;
 
 .download-cv{
 	position: relative;
-	top: 100px;
-	left: 455px;
+	top: 156px;
+	left: 240px;
 }
 
 .download-cv a{
 	text-decoration: none;
-	color: #fff;
+    color: #000;
+    font-family: Ogg;
+    font-size: 87px;
+    font-weight: lighter;
+    letter-spacing: -6px;
+    position: relative;
+    z-index: 1;
+}
+
+.arrow-cv{
+    width: 50px;
+    margin-left: 15px;
 }
 @media (max-width:790px) {
     .timeline-wrapper .center-line
@@ -175,4 +186,26 @@ justify-content: flex-start;
 		padding: 20px;
 		position: relative;
 	}
+
+    .download-cv{
+        position: relative;
+        top: 60px;
+        left: 18px;
+    }
+    
+    .download-cv a{
+        text-decoration: none;
+        color: #000;
+        font-family: Ogg;
+        font-size: 50px;
+        font-weight: lighter;
+        letter-spacing: -6px;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .arrow-cv{
+        width: 32px;
+        margin-left: 15px;
+    }
 }
