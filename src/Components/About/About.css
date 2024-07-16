@@ -180,6 +180,7 @@
 }
 
 @media (max-width: 768px  ) {
+
     .about-container2-heading2 p, .about-container2-heading p{
         font-size: 64px;
         letter-spacing: -2px;

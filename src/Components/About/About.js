@@ -85,8 +85,11 @@ function About() {
                     <div className="about-footer">
                         <Strength/>
                         <GetInTouch />
+                    </div>
+                    <div>
                         <Footer />
                     </div>
+
                 </div>
     )
 }
