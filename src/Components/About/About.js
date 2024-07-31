@@ -80,15 +80,19 @@ function About() {
                         <div className="resume-container">
                             <Resume />
                         </div>
+                        
                     </div>
+                        
 
                     <div className="about-footer">
-                        <Strength/>
-                        <GetInTouch />
+                            <Footer />
+                        {/* <Strength/>
+                        <GetInTouch /> */}
                     </div>
-                    <div>
-                        <Footer />
-                    </div>
+                    
+
+                        {/* <Footer /> */}
+
 
                 </div>
     )
