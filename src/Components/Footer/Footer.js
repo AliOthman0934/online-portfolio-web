@@ -17,8 +17,7 @@ function Footer() {
                             Contact
                         </div>
                         <div className="social-links-items">
-                            <a href="mailto:alioth840@gmail.com">Mail</a>
-                            <a href="#1">Whatsapp</a>
+                            <a href="mailto:alioth840@gmail.com">Email</a>
                             <a href="#3">+31 6 38 97 01 70</a>
                         </div>
                     </div>
