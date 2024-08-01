@@ -28,8 +28,8 @@ function Footer() {
                             Social
                         </div>
                         <div className="social-links-items">
-                            <a href="https://github.com/AliOthman0934">Github</a>
-                            <a href="https://www.linkedin.com/in/ali-othman-1199b4251/">LinkedIn</a>
+                            <a href="https://github.com/AliOthman0934"target='blenk'>Github</a>
+                            <a href="https://www.linkedin.com/in/ali-othman-1199b4251/" target='blenk'>LinkedIn</a>
                         </div>
                     </div>
                     {/* <div className="social-links">
@@ -47,10 +47,10 @@ function Footer() {
                             Menu
                         </div>
                         <div className="footer-menu-links social-links-items">
-                            <Link className="footer-menu-links-items">Home</Link>
-                            <Link className="footer-menu-links-items">About</Link>
-                            <Link className="footer-menu-links-items">Projects</Link>
-                            <Link className="footer-menu-links-items">Contact</Link>
+                            <Link className="footer-menu-links-items" to = "./">Home</Link>
+                            <Link className="footer-menu-links-items" to ="/about">About</Link>
+                            <Link className="footer-menu-links-items" to = "/projects">Projects</Link>
+                            <Link className="footer-menu-links-items" to = "/contact">Contact</Link>
                         </div>
                     </div>
                 </div>

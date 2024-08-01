@@ -37,12 +37,12 @@ const Resume = () => {
         <div className="timeline-wrapper">
             <div className="center-line">
                 <a href="#1" className="scroll-icon">
-                    <i className="bi bi-caret-up"></i>
+                    {/* <i className="bi bi-caret-up"></i> */}
                 </a>
             </div>
             <div className="timeline-row timeline-row-1">
                 <section>
-                    <i className="icon bi bi-house"></i>
+                    {/* <i className="icon bi bi-house"></i> */}
                     <div className="details">
                         <span className="title">Full Stack Web Development training</span>
 
@@ -60,45 +60,25 @@ const Resume = () => {
 
             <div className="timeline-row timeline-row-2">
                 <section>
-                    <i className="icon bi bi-star"></i>
+                    {/* <i className="icon bi bi-globe"></i> */}
                     <div className="details">
-                        <span className="title">Bachelor of Architecture</span>
+                        <span className="title"> Sales Advisor and Logistics (volunteer)</span>
                     </div>
+
                     <div className="title-date">
-                        <span className="title">Cordoba Private University</span>
-                        <span className="date">2016 - 2019</span>
+                        <span className="title">Eurowinkel</span>
+                        <span className="date">04/2022 - 10/2022</span>
                     </div>
+
                     <p>
-                    I earned a Bachelor of Architecture from Cordoba Private University in Qamishli, Syria. The program honed my design, technical, and analytical skills, emphasizing sustainable architecture and practical projects,
-                    preparing me for a professional architectural career.
+                        supporting sales operations and logistical tasks within the organization. You will engage with customers, provide product information, and assist in the sales process, ensuring a positive experience
                     </p>
                 </section>
             </div>
-
-
 
             <div className="timeline-row timeline-row-1">
                 <section>
-                    <i className="icon bi bi-send"></i>
-                    <div className="details">
-                        <span className="title"> Engineering Assistant</span>
-                    </div>
-
-                    <div className="title-date">
-                        <span className="title">Amar Constructions</span>
-                        <span className="date">06/2018 - 11/2019</span>
-                    </div>
-
-                    <p>
-                    Overseeing construction ensures compliance with quality standards and material availability. Managing project planning, design, development, and evaluation.
-                    Also serving as the primary contact for construction staff and conducting inventory inspections.
-                    </p>
-                </section>
-            </div>
-
-            <div className="timeline-row timeline-row-2">
-                <section>
-                    <i className="icon bi bi-globe"></i>
+                    {/* <i className="icon bi bi-globe"></i> */}
                     <div className="details">
                         <span className="title">Receptionist (volunteer)</span>
                     </div>
@@ -115,9 +95,9 @@ const Resume = () => {
                 </section>
             </div>
 
-            <div className="timeline-row timeline-row-1">
+            <div className="timeline-row timeline-row-2">
                 <section>
-                    <i className="icon bi bi-rocket"></i>
+                    {/* <i className="icon bi bi-rocket"></i> */}
                     <div className="details">
                         <span className="title">Shop Owner</span>
                     </div>
@@ -132,25 +112,46 @@ const Resume = () => {
                 </section>
             </div>
 
-            <div className="timeline-row timeline-row-2">
+            <div className="timeline-row timeline-row-1">
                 <section>
-                    <i className="icon bi bi-map"></i>
+                    {/* <i className="icon bi bi-send"></i> */}
                     <div className="details">
-                        <span className="title">Merchandiser</span>
+                        <span className="title">Junior Architect</span>
                     </div>
+
                     <div className="title-date">
-                        <span className="title">Albert Heijn</span>
-                        <span className="date">10/2022 - 11/2023</span>
+                        <span className="title">Amar Constructions</span>
+                        <span className="date">06/2018 - 11/2019</span>
                     </div>
+
                     <p>
-                    Responsible for product appearance and supply in a fast-paced environment, working closely with colleagues. 
-                    Interacted with customers, assisting them in finding products and answering questions, ensuring a positive shopping experience.
+                    Overseeing construction ensures compliance with quality standards and material availability. Managing project planning, design, development, and evaluation.
+                    Also serving as the primary contact for construction staff and conducting inventory inspections.
                     </p>
                 </section>
             </div>
+
+            <div className="timeline-row timeline-row-2">
+                <section>
+                    {/* <i className="icon bi bi-star"></i> */}
+                    <div className="details">
+                        <span className="title">Bachelor of Architecture</span>
+                    </div>
+                    <div className="title-date">
+                        <span className="title">Cordoba Private University</span>
+                        <span className="date">2016 - 2019</span>
+                    </div>
+                    <p>
+                    I earned a Bachelor of Architecture from Cordoba Private University in Qamishli, Syria. The program honed my design, technical, and analytical skills, emphasizing sustainable architecture and practical projects,
+                    preparing me for a professional architectural career.
+                    </p>
+                </section>
+            </div>
+
             <div className="download-cv">
-                <a href={CV} download="Resume Ali Othman" >Download CV</a>
-                <img src={arrow} alt="" className="arrow-cv" />
+                <a href={CV} download="Resume Ali Othman" >Download CV
+                    <img src={arrow} alt="" className="arrow-cv" />
+                </a>
             </div>
         </div>
 

@@ -47,124 +47,142 @@ function Projects() {
                 <div className="project-page-container">
                     <div className="project-page-items" ref={el => itemsProject = el}>
                         <div className="project-page-item">
-                            <div className="project-page-item-number">
+                            {/* <div className="project-page-item-number">
                                 <p>2024</p>
-                            </div>
+                            </div> */}
                             <a href="/" target='blank'>
                                 <div className="project-page-item-header">
-                                    <h1>Personal portfolio</h1>
+                                    {/* <h1>Personal portfolio</h1> */}
+                                    <span >Personal portfolio</span>
+                                    <span >2024</span>
                                 </div>
                                 <div className="project-page-item-image project-page-item-image1">
                                     <img src={img1} alt='nmj' className='project-img'></img>
                                 </div>
                                 <div className="project-page-item-footer">
-                                    <a href='https://github.com/AliOthman0934/Portfolio'target='blank'>More information on GitHub</a>
+                                    <a href='https://github.com/AliOthman0934/Portfolio'target='blank'>Checkout the code on GitHub</a>
                                     <img src={arrow} alt="" />
                                 </div>
                             </a>
                         </div>
                         <div className="project-page-item">
-                            <div className="project-page-item-number">
+                            {/* <div className="project-page-item-number">
                                 <p>2024</p>
-                            </div>
+                            </div> */}
                             <a href="https://c46-group-b-4e426f6bf421.herokuapp.com/" target='blank'>
                                 <div className="project-page-item-header">
-                                    <h1>HomeSwap</h1>
+                                    {/* <h1>HomeSwap</h1> */}
+                                    <span >HomeSwap</span>
+                                    <span >2024</span>
                                 </div>
                                 <div className="project-page-item-image project-page-item-image2">
                                     <img src={img2} alt='' className='project-img'></img>
                                 </div>
                                 <div className="project-page-item-footer">
-                                    <a href='/'target='blank'>More information on GitHub</a>
+                                    <a href='/'target='blank'>Checkout the code on GitHub</a>
                                     <img src={arrow} alt="" />
                                 </div>
                             </a>
                         </div>
                         <div className="project-page-item">
-                            <div className="project-page-item-number">
+                            {/* <div className="project-page-item-number">
                                 <p>2024</p>
-                            </div>
+                            </div> */}
                             <a href="https://bookhub-alpha.vercel.app/book" target='blank'>
                                 <div className="project-page-item-header">
-                                    <h1>BookHub</h1>
+                                    {/* <h1>BookHub</h1> */}
+                                    <span >BookHub</span>
+                                    <span >2024</span>
                                 </div>
                                 <div className="project-page-item-image project-page-item-image3">
                                     <img src={img3} alt='' className='project-img'></img>
                                 </div>
                                 <div className="project-page-item-footer">
-                                    <a href='https://github.com/AliOthman0934/Library-Search-API'target='blank'>More information on GitHub</a>
+                                    <a href='https://github.com/AliOthman0934/Library-Search-API'target='blank'>Checkout the code on GitHub</a>
                                     <img src={arrow} alt="" />
                                 </div>
                             </a>
                         </div>
                         <div className="project-page-item">
-                            <div className="project-page-item-number">
+                            {/* <div className="project-page-item-number">
                                 <p>2023</p>
-                            </div>
+                            </div> */}
                             <a href="https://green-club-topaz.vercel.app/" target='blank'>
                                 <div className="project-page-item-header">
-                                    <h1>Green Social Clup</h1>
+                                    {/* <h1>Green Social Clup</h1> */}
+                                    <span >Green Social Club</span>
+                                    <span >2023</span>
                                 </div>
                                 <div className="project-page-item-image project-page-item-image4">
                                     <img src={img4} alt=''className='project-img'></img>
                                 </div>
                                 <div className="project-page-item-footer">
-                                    <a href='https://github.com/AliOthman0934/My-green-social-club'target='blank'>More information on GitHub</a>
+                                    <a href='https://github.com/AliOthman0934/My-green-social-club'target='blank'>Checkout the code on GitHub</a>
                                     <img src={arrow} alt="" />
                                 </div>
                             </a>
                         </div>
                         <div className="project-page-item">
-                            <div className="project-page-item-number">
+                            {/* <div className="project-page-item-number">
                                 <p>2023</p>
-                            </div>
+                            </div> */}
                             <a href="https://tiny-swan-81124f.netlify.app/" target='blank'>
                                 <div className="project-page-item-header">
-                                    <h1>Image Generator</h1>
+                                    {/* <h1>Image Generator</h1> */}
+                                    <span >Image Generator</span>
+                                    <span >2023</span>
+                                
                                 </div>
                                 <div className="project-page-item-image project-page-item-image5">
                                     <img src={img5} alt='' className='project-img'></img>
                                 </div>
                                 <div className="project-page-item-footer">
-                                    <a href='https://github.com/AliOthman0934/APIs-Project'target='blank'>More information on GitHub</a>
+                                    <a href='https://github.com/AliOthman0934/APIs-Project'target='blank'>Checkout the code on GitHub</a>
                                     <img src={arrow} alt="" />
                                 </div>
                             </a>
                         </div>
+
                         <div className="project-page-item">
-                            <div className="project-page-item-number">
+                            {/* <div className="project-page-item-number">
                                 <p>2023</p>
-                            </div>
-                            <a href="/">
-                                <div className="project-page-item-header">
-                                    <h1>Shoes Website</h1>
-                                </div>
-                                <div className="project-page-item-image project-page-item-image6">
-                                    <img src={img6} alt='' className='project-img'></img>
-                                </div>
-                                <div className="project-page-item-footer">
-                                    <a href='https://github.com/AliOthman0934/Shoes-website'target='blank'>More information on GitHub</a>
-                                    <img src={arrow} alt="" />
-                                </div>
-                            </a>
-                        </div>
-                        <div className="project-page-item">
-                            <div className="project-page-item-number">
-                                <p>2023</p>
-                            </div>
+                            </div> */}
                             <a href="https://curious-blancmange-710ac0.netlify.app/" target='blank'>
                                 <div className="project-page-item-header">
-                                    <h1>HYF Quiz</h1>
+                                    {/* <h1>HYF Quiz</h1> */}
+                                    <span >HYF Quiz</span>
+                                    <span >2023</span>
                                 </div>
                                 <div className="project-page-item-image project-page-item-image7">
                                     <img src={img7} className='project-img' alt='' ></img>
                                 </div>
                                 <div className="project-page-item-footer">
-                                    <a href='https://github.com/AliOthman0934/Quiz-Application' target='blank'>More information on GitHub</a>
+                                    <a href='https://github.com/AliOthman0934/Quiz-Application' target='blank'>Checkout the code on GitHub</a>
                                     <img src={arrow} alt="" />
                                 </div>
                             </a>
                         </div>
+
+                        <div className="project-page-item">
+                            {/* <div className="project-page-item-number">
+                                <p>2023</p>
+                            </div> */}
+                            <a href="/">
+                                <div className="project-page-item-header">
+                                    {/* <h1>Shoes Website</h1> */}
+                                    <span >Shoes Website</span>
+                                    <span >2023</span>
+                                </div>
+                                <div className="project-page-item-image project-page-item-image6">
+                                    <img src={img6} alt='' className='project-img'></img>
+                                </div>
+                                <div className="project-page-item-footer">
+                                    <a href='https://github.com/AliOthman0934/Shoes-website'target='blank'>Checkout the code on GitHub</a>
+                                    <img src={arrow} alt="" />
+                                </div>
+                            </a>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
