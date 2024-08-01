@@ -94,65 +94,60 @@ function Home() {
                 <div className="skill-set-boxes">
                     <div className="skill-set-box">
                         <h1 className="skill-set-box-h1">HTML5</h1>
-                        <p className="skill-set-box-p">I mainly used to develop Website Markup</p>
+                        <p className="skill-set-box-p">HTML5 is a markup language used for structuring and presenting hypertext documents on the World Wide Web</p>
                     </div>
                     <div className="skill-set-box">
                         <h1 className="skill-set-box-h1">CSS</h1>
-                        <p className="skill-set-box-p">I use this to style and bring design to browsers</p>
+                        <p className="skill-set-box-p">A style sheet language used for specifying the presentation and styling of a document written in a markup language </p>
                     </div>
                     <div className="skill-set-box">
                         <h1 className="skill-set-box-h1"> CLI</h1>
-                        <p className="skill-set-box-p">I use this to have flexible access to system functions and software features</p>
+                        <p className="skill-set-box-p">A command-line interface is a means of interacting with a computer program by inputting lines of text called command-lines</p>
                     </div>
 
                     <div className="skill-set-box">
                         <h1 className="skill-set-box-h1">GitHub</h1>
-                        <p className="skill-set-box-p">I used for version control and collaboration in software development projects.</p>
+                        <p className="skill-set-box-p">GitHub is a developer platform that allows developers to create, store, manage and share their cod</p>
                     </div>
 
                     <div className="skill-set-box">
                         <h1 className="skill-set-box-h1">javascript</h1>
-                        <p className="skill-set-box-p">With this technology I create visual effects and interaction and DOM elements</p>
+                        <p className="skill-set-box-p"> A programming language and core technology of the Web</p>
                     </div>
 
                     <div className="skill-set-box">
                         <h1 className="skill-set-box-h1">React.js</h1>
-                        <p className="skill-set-box-p">I use it to create applications that have lot of reactivity</p>
+                        <p className="skill-set-box-p">A free and open-source front-end JavaScript library for building user interfaces</p>
                     </div>
 
                     <div className="skill-set-box">
                         <h1 className="skill-set-box-h1">Greensock - GSAP</h1>
-                        <p className="skill-set-box-p">I used this as an animation library!</p>
+                        <p className="skill-set-box-p">A framework-agnostic JavaScript animation library that turns developers into animation superheroes</p>
                     </div>
 
                     <div className="skill-set-box">
                         <h1 className="skill-set-box-h1">Node.js</h1>
-                        <p className="skill-set-box-p">I use it to writing server scripting for applications</p>
+                        <p className="skill-set-box-p">A cross-platform, open-source JavaScript runtime environment </p>
                     </div>
 
                     <div className="skill-set-box">
                         <h1 className="skill-set-box-h1">MySQL</h1>
-                        <p className="skill-set-box-p">I used for storing, managing, and retrieving data in web applications.</p>
+                        <p className="skill-set-box-p">An open-source relational database management system</p>
                     </div>
 
                     <div className="skill-set-box">
                         <h1 className="skill-set-box-h1">MongoDB</h1>
-                        <p className="skill-set-box-p">I used for storing, retrieving, and managing structured and unstructured data.</p>
+                        <p className="skill-set-box-p"> A source-available, crossplatform, documentoriented database program</p>
                     </div>
 
                     <div className="skill-set-box">
                         <h1 className="skill-set-box-h1">Sass</h1>
-                        <p className="skill-set-box-p">I prefer this also instead of CSS beacouse of advance functionalities</p>
+                        <p className="skill-set-box-p">Sass is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheet</p>
                     </div>
 
                     <div className="skill-set-box">
                         <h1 className="skill-set-box-h1">Figma</h1>
-                        <p className="skill-set-box-p">Use to create  werifram for any website design</p>
-                    </div>
-
-                    <div className="skill-set-box">
-                        <h1 className="skill-set-box-h1">Illustrator</h1>
-                        <p className="skill-set-box-p">I use to make creative svgs and illustrations for website</p>
+                        <p className="skill-set-box-p">Figma is a collaborative web application for interface design</p>
                     </div>
                 </div>
                 
