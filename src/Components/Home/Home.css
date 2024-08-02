@@ -16,7 +16,7 @@
     justify-content: center;
     overflow: hidden;
     position: relative;
-    top: 40px;
+    top: 78px;
 
 }
 .txt-line{
@@ -28,12 +28,11 @@
     text-transform: capitalize;
     letter-spacing: -10px;
     font-family: 'Ogg';
-    overflow: hidden;
     height: 100%;
-    line-height: 90%;
+    line-height: 54%;
 }
 .line-bottom{
-    margin-top: -391px;
+    margin-top: -333px;
 }
 .right-side-menu{
     position: absolute;
