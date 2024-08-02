@@ -6,7 +6,7 @@
     align-items: flex-start;
     justify-content: space-between;
     width: 100%;
-    margin-top: -170px;
+    margin-top: -136px;
 }
 .container1{
     display: flex;
@@ -16,23 +16,23 @@
     justify-content: center;
     overflow: hidden;
     position: relative;
-    top: 78px;
+    top: 34px;
 
 }
 .txt-line{
     overflow: hidden;
 }
 .txt-line p{
-    font-size: 172px;
+    font-size: 140px;
     color: black;
     text-transform: capitalize;
     letter-spacing: -10px;
     font-family: 'Ogg';
     height: 100%;
-    line-height: 54%;
+    line-height: 97%;
 }
 .line-bottom{
-    margin-top: -333px;
+    margin-top: -331px;
 }
 .right-side-menu{
     position: absolute;
@@ -161,7 +161,7 @@
 
 .skill-set-box{
     display: flex;
-    width: 460px;
+    width: 404px;
     height: 200px;
     color: #e6e6e6;
     flex-direction: column;

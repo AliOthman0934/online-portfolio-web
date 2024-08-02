@@ -107,7 +107,7 @@ function Home() {
 
                     <div className="skill-set-box">
                         <h1 className="skill-set-box-h1">GitHub</h1>
-                        <p className="skill-set-box-p">GitHub is a developer platform that allows developers to create, store, manage and share their cod</p>
+                        <p className="skill-set-box-p">GitHub is a developer platform that allows developers to create, store, manage and share their code</p>
                     </div>
 
                     <div className="skill-set-box">
