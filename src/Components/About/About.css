@@ -115,6 +115,7 @@
 .about-footer{
     margin-top: 610vh;
 }
+
 @keyframes animate-rotate {
     from{
         transform: rotate(0deg);
@@ -227,5 +228,8 @@
     }
     .about-container2-p p{
         font-size: 15px;
+    }
+    .about-footer{
+        margin-top: 700vh;
     }
 }
